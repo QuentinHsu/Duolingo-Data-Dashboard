@@ -1,27 +1,27 @@
 {
-  "name": "duolingo-data-dashboard",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview",
-    "lint": "eslint . && prettier . --check",
-    "lint:fix": "eslint . --fix && prettier . --write"
-  },
-  "dependencies": {
-    "vue": "^3.3.4"
-  },
-  "devDependencies": {
-    "@so1ve/eslint-config": "^0.123.0",
-    "@so1ve/prettier-config": "^0.123.0",
-    "@vitejs/plugin-vue": "^4.2.3",
-    "eslint": "^8.50.0",
-    "eslint-plugin-import": "^2.28.1",
-    "prettier": "^3.0.3",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "vue-tsc": "^1.8.5"
-  }
+	"name": "duolingo-data-dashboard",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"build": "vue-tsc && vite build",
+		"dev": "vite",
+		"lint": "eslint . && prettier . --check",
+		"lint:fix": "eslint . --fix && prettier . --write",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"vue": "^3.3.4"
+	},
+	"devDependencies": {
+		"@so1ve/eslint-config": "^0.123.0",
+		"@so1ve/prettier-config": "^0.123.0",
+		"@vitejs/plugin-vue": "^4.2.3",
+		"eslint": "^8.50.0",
+		"eslint-plugin-import": "^2.28.1",
+		"prettier": "^3.0.3",
+		"typescript": "^5.0.2",
+		"vite": "^4.4.5",
+		"vue-tsc": "^1.8.5"
+	}
 }
