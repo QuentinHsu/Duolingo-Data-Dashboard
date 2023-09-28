@@ -9,7 +9,9 @@ const theme = computed(() => (colorMode.value === 'dark' ? darkTheme : null))
 
 <template>
   <NConfigProvider class="h-full" :theme="theme">
-    <RouterView />
+    <NMessageProvider>
+      <RouterView />
+    </NMessageProvider>
   </NConfigProvider>
 </template>
 
