@@ -1,5 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import PageHeader from './components/page-header/index.vue'
+</script>
 
-<template>Index</template>
+<template>
+  <NLayout>
+    <PageHeader />
+  </NLayout>
+</template>
 
 <style lang="scss" scoped></style>
