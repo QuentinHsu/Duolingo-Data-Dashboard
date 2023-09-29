@@ -21,7 +21,20 @@ const menuOptions: MenuOption[] = [
         },
         { default: () => '经验' }
       ),
-    key: 'go-back-home',
+    key: 'xp-summaries',
+  },
+  {
+    label: () =>
+      h(
+        RouterLink,
+        {
+          to: {
+            name: 'my-account',
+          },
+        },
+        { default: () => '我的' }
+      ),
+    key: 'my-account',
   },
 ]
 </script>

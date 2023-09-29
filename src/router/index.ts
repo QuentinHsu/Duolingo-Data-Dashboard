@@ -10,6 +10,11 @@ const routes = [
         name: 'xp-summaries',
         component: () => import('@/views/xp-summaries/index.vue'),
       },
+      {
+        path: '/my-account',
+        name: 'my-account',
+        component: () => import('@/views/my-account/index.vue'),
+      },
     ],
   },
 ]
