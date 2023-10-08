@@ -71,7 +71,7 @@ function changeColorMode(value: ColorOption['value']) {
   justify-content: space-between;
   align-items: center;
   height: 64px;
-  padding: 10px;
+  padding: 15px;
   .header-info {
     display: flex;
     align-items: center;
