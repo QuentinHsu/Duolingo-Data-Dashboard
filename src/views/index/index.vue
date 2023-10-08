@@ -7,6 +7,7 @@ const globalStore = useGlobalStore()
 const showModalLoading = computed(() => globalStore.$state.loading)
 const loadingMessage = computed(() => globalStore.$state.loadingMessage || '')
 import { useMessage } from 'naive-ui'
+// @ts-ignore
 window.$message = useMessage()
 </script>
 
